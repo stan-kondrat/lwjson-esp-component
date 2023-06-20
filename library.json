@@ -1,0 +1,26 @@
+{
+    "name": "lwjson",
+    "version": "0.0.1",
+    "description": "lwjson lib [https://github.com/MaJerle/lwjson]",
+    "keywords": "esp32 lwjson",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/stan-kondrat/lwjson-esp-component"
+    },
+    "authors":
+    [
+      {
+        "name": "Stan Kondrat",
+        "email": "stan.kondrat@gmail.com",
+        "url": "https://github.com/stan-kondrat",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "frameworks": "espidf",
+    "platforms": "espressif32",
+    "headers": ["lwjson/lwjson/src/include/lwjson/lwjson.h"],
+    "examples": [
+    ]
+  }
